@@ -34,6 +34,8 @@
     </c:forEach>
     </tbody>
   </table>
+
+  <a href="<c:url value="/survey/surveyForm"/>" class="btn btn-primary survey-link">처음으로</a>
 </div>
 
 <script src="/webjars/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>

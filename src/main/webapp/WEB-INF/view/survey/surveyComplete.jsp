@@ -15,7 +15,7 @@
     <p>3 : ${surveyCommand.q3}</p>
     <p>4 : ${surveyCommand.respondentName}</p>
     <p>5 : ${surveyCommand.respondentAge}</p>
-    <a href="<c:url value="/survey/surveyList"/>" class="survey-link">[응답 리스트 보기]</a>
+    <a href="<c:url value="/survey/surveyList"/>" class="btn btn-primary survey-link">[응답 리스트 보기]</a>
   </div>
 </div>
 

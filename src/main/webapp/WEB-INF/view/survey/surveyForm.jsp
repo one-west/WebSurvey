@@ -28,6 +28,7 @@
         <label class="form-check-label" for="full">풀스택개발자</label>
       </div>
       <div class="error-message">
+        <br>
         <form:errors path="q1"/>
       </div>
     </div>
@@ -46,7 +47,9 @@
         <form:radiobutton value="VSCode" path="q2" id="vscode" class="form-check-input"/>
         <label class="form-check-label" for="vscode">VSCode</label>
       </div>
+
       <div class="error-message">
+        <br>
         <form:errors path="q2"/>
       </div>
     </div>
